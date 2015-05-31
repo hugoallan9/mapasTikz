@@ -1,5 +1,5 @@
 % !TEX encoding = UTF-8 Unicode
-\documentclass[10pt,twoside]{book}\usepackage[T1]{fontenc}
+\documentclass[11.2pt,twoside]{book}\usepackage[T1]{fontenc}
 \usepackage{tikz}
 
 \usepackage[active,tightpage,xetex]{preview}
@@ -19,102 +19,184 @@
 \usepackage{fontspec,xunicode}
 
 \setmainfont{Open Sans Condensed Light}
+
+\input{datos}
+
 \begin{document}
 \begin{tikzpicture}
 \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics{mapa}};
 \begin{scope}[x={(image.south east)},y={(image.north west)}]
-\draw[help lines,xstep=.1,ystep=.1] (0,0) grid (1,1);
-\foreach \x in {0,1,...,9} { \node [anchor=north] at (\x/10,0) {0.\x}; }
-\foreach \y in {0,1,...,9} { \node [anchor=east] at (0,\y/10) {0.\y}; }
+%\draw[help lines,xstep=.1,ystep=.1] (0,0) grid (1,1);
+%\foreach \x in {0,1,...,9} { \node [anchor=north] at (\x/10,0) {0.\x}; }
+%\foreach \y in {0,1,...,9} { \node [anchor=east] at (0,\y/10) {0.\y}; }
+
+\node[text width=8cm] at (0.6,1.02) {\Large AQUÍ VA LA ESCALA DE COLORES};
+
+% ##############GUATEMALA############################## %
+%\draw [ gray] (0.46,0.2) -- (0.46,0.99);
+%\filldraw [gray] (0.46,0.2) circle (1.2pt);
+%\draw [ gray] (0.46,0.99) -- (0.73,0.99);
+%\node[text width=3cm, color=gray] at (0.83,0.99) {Guatemala \\ \guatemala \%};
+
+\draw [ gray] (0.46,0.2) -- (0.46,0.03);
+\filldraw [gray] (0.46,0.2) circle (1.2pt);
+\draw [ gray] (0.46,0.03) -- (0.73,0.03);
+\node[text width=3cm, color=gray] at (0.835,0.03) {Guatemala  \guatemala };
+
+
 % ###############ALTA VERAPAZ############################## %
-\draw [thick] (0.5,0.4) -- (0.5,0.9);
-\filldraw (0.5,0.4) circle (1pt);
-\draw [thick] (0.4989,0.9) -- (0.73,0.9);
-\node[text width=3cm] at (0.83,0.9) {Alta Verapaz \\ 5\%};
+\draw [ gray] (0.5,0.4) -- (0.5,0.9);
+\filldraw [gray] (0.5,0.4) circle (1.2pt);
+\draw [ gray] (0.4989,0.9) -- (0.88,0.9);
+\node[text width=3cm, color=gray] at (0.985,0.9) {AltaVerapaz \\ \altaVerapaz \%};
+
+
+
+
 
 % ###############BAJA VERAPAZ############################## %
-\draw [thick] (0.525,0.33) -- (0.525,0.81);
-\filldraw (0.525,0.33) circle (1pt);
-\draw [thick] (0.525,0.81) -- (0.73,0.81);
-\node[text width=3cm] at (0.83,0.81) {Baja Verapaz \\ 5\%};
+\draw [ gray] (0.525,0.33) -- (0.525,0.83);
+\filldraw [gray] (0.525,0.33) circle (1.2pt);
+\draw [ gray] (0.525,0.83) -- (0.73,0.83);
+\node[text width=3cm, color=gray] at (0.835,0.83) {Baja Verapaz \\ \bajaVerapaz \%};
 
 %#############EL PROGRESO################################# %
-\draw [thick] (0.55,0.28) -- (0.55,0.72);
-\filldraw (0.55,0.28) circle (1pt);
-\draw [thick] (0.55,0.72) -- (0.73,0.72);
-\node[text width=3cm] at (0.83,0.72) {El Progreso \\ 5\%};
+\draw [ gray] (0.55,0.28) -- (0.55,0.76);
+\filldraw [gray] (0.55,0.28) circle (1.2pt);
+\draw [ gray] (0.55,0.76) -- (0.88,0.76);
+\node[text width=3cm, color=gray] at (0.985,0.76) {El Progreso \\  \elProgreso \%};
 
 
 % ###############PETEN############################## %
-\draw [thick] (0.58,0.55) -- (0.58,0.63);
-\filldraw (0.58,0.55) circle (1pt);
-\draw [thick] (0.58,0.63) -- (0.73,0.63);
-\node[text width=3cm] at (0.83,0.63) {Petén \\ 5\%};
+\draw [ gray] (0.58,0.65) -- (0.58,0.69);
+\filldraw [gray] (0.58,0.65) circle (1.2pt);
+\draw [ gray] (0.58,0.69) -- (0.73,0.69);
+\node[text width=3cm, color=gray] at (0.835,0.69) {Petén \\  \peten \%};
 
 %#############IZABAL################################# %
-\draw [thick] (0.64,0.45) -- (0.64,0.55);
-\filldraw (0.64,0.45) circle (1pt);
-\draw [thick] (0.6389,0.55) -- (0.73,0.55);
-\node[text width=3cm] at (0.83,0.55) {Izabal \\ 5\%};
+\draw [ gray] (0.64,0.45) -- (0.64,0.62);
+\filldraw [gray] (0.64,0.45) circle (1.2pt);
+\draw [ gray] (0.6389,0.62) -- (0.88,0.62);
+\node[text width=3cm, color=gray] at (0.985,0.62) {Izabal \\  \izabal \%};
 
 
 
 %#############ZACAPA################################# %
-\filldraw (0.62,0.31) circle (1pt);
-\draw [thick] (0.62,0.33) -- (0.73,0.33);
-\draw [thick] (0.62,0.31) -- (0.62,0.33);
-\node[text width=3cm] at (0.83,0.33) {Zacapa \\ 45\%};
+\filldraw [gray] (0.59,0.29) circle (1.2pt);
+\draw [ gray] (0.59,0.29) -- (0.59,0.39);
+\draw [ gray] (0.59,0.39) -- (0.88,0.39);
+\node[text width=3cm, color=gray] at (0.985,0.39) {Zacapa \\ \zacapa \%};
 
 
 %#############CHIQUIMULA################################# %
-\filldraw (0.63,0.22) circle (1pt);
-\draw [thick] (0.63,0.25) -- (0.73,0.25);
-\draw [thick] (0.63,0.22) -- (0.63,0.25);
-\node[text width=3cm] at (0.83,0.25) {Chiquimula \\ 15\%};
+\filldraw [gray] (0.62,0.24) circle (1.2pt);
+\draw [ gray] (0.62,0.24) -- (0.62,0.32);
+\draw [ gray] (0.62,0.32) -- (0.73,0.32);
+\node[text width=3cm, color=gray] at (0.835,0.32) {Chiquimula \\  \zacapa \%};
 
 %#############JALAPA################################# %
-\filldraw (0.55,0.22) circle (1pt);
-\draw [thick] (0.55,0.17) -- (0.73,0.17);
-\draw [thick] (0.55,0.22) -- (0.55,0.17);
-\node[text width=3cm] at (0.83,0.17) {Jalapa \\ 15\%};
+\filldraw [gray] (0.55,0.20) circle (1.2pt);
+\draw [ gray] (0.65,0.20) -- (0.65,0.25);
+\draw [ gray] (0.65,0.25) -- (0.88,0.25);
+\draw [ gray] (0.55,0.20) -- (0.65,0.20);
+\node[text width=3cm, color=gray] at (0.985,0.25) {Jalapa \\  \jalapa \%};
 
 %#############JUTIAPA################################# %
-\filldraw (0.57,0.12) circle (1pt);
-\draw [thick] (0.57,0.10) -- (0.73,0.10);
-\draw [thick] (0.57,0.12) -- (0.57,0.10);
-\node[text width=3cm] at (0.83,0.09) {Jutiapa \\ 15\%};
+\filldraw [gray] (0.57,0.15) circle (1.2pt);
+\draw [ gray] (0.57,0.15) -- (0.69,0.15);
+\draw [ gray] (0.69,0.15) -- (0.69,0.18);
+\draw [ gray] (0.69,0.18) -- (0.73,0.18);
+\node[text width=3cm, color=gray] at (0.835,0.18) {Jutiapa \\  \jutiapa \%};
 
 %#############SANTA ROSA################################# %
-\filldraw (0.48,0.11) circle (1pt);
-\draw [thick] (0.48,0.01) -- (0.73,0.01);
-\draw [thick] (0.48,0.11) -- (0.48,0.01);
-\node[text width=3cm] at (0.83,0.01) {Santa Rosa \\ 15\%};
+\filldraw [gray] (0.48,0.11) circle (1.2pt);
+\draw [ gray] (0.48,0.11) -- (0.88,0.11);
+%\draw [ gray] (0.48,0.11) -- (0.48,0.11);
+\node[text width=3cm, color=gray] at (0.985,0.11) {Santa Rosa \\  \santaRosa \%};
+
+
+% ###############SACATEPEQUEZ############################## %
+%\draw [ gray] (0.42,0.2) -- (0.42,0.99);
+%\filldraw [gray] (0.42,0.2) circle (1.2pt);
+%\draw [ gray] (0.42,0.99) -- (0.20,0.99);
+%\node[align=right, text width=3cm, color=gray] at (0.10,0.99) {Sacatepéquez \\ \sacatepequez \%};
+
+\draw [ gray] (0.42,0.2) -- (0.42,0.03);
+\filldraw [gray] (0.42,0.2) circle (1.2pt);
+\draw [ gray] (0.42,0.03) -- (0.00,0.03);
+\node[align=right, text width=3cm, color=gray] at (-0.10,0.03) {Sacatepéquez \\ \sacatepequez \%};
 
 % ###############QUICHE############################## %
-\draw [thick] (0.39,0.35) -- (0.39,0.9);
-\filldraw (0.39,0.35) circle (1pt);
-\draw [thick] (0.39,0.9) -- (0.20,0.9);
-\node[align=right, text width=3cm] at (0.10,0.9) {Quiché \\ 5\%};
+\draw [ gray] (0.39,0.4) -- (0.39,0.9);
+\filldraw [gray] (0.39,0.4) circle (1.2pt);
+\draw [ gray] (0.39,0.9) -- (0.00,0.9);
+\node[align=right, text width=3cm, color=gray] at (-0.10,0.9) {Quiché \\ \quiche \%};
 
 
 % ###############SOLOLÁ############################## %
-\draw [thick] (0.34,0.23) -- (0.34,0.81);
-\filldraw (0.34,0.23) circle (1pt);
-\draw [thick] (0.34,0.81) -- (0.20,0.81);
-\node[align=right,text width=3cm] at (0.1,0.81) {Sololá \\ 5\%};
+\draw [ gray] (0.34,0.23) -- (0.34,0.83);
+\filldraw [gray] (0.34,0.23) circle (1.2pt);
+\draw [ gray] (0.34,0.83) -- (0.15,0.83);
+\node[align=right,text width=3cm, color=gray] at (0.05,0.83) {Sololá \\ \solola \%};
 
 % ###############TOTONICAPAN############################## %
-\draw [thick] (0.31,0.29) -- (0.31,0.72);
-\filldraw (0.31,0.29) circle (1pt);
-\draw [thick] (0.31,0.72) -- (0.20,0.72	);
-\node[align=right,text width=3cm] at (0.1,0.72) {Totonicapán \\ 5\%};
+\draw [ gray] (0.31,0.29) -- (0.31,0.76);
+\filldraw [gray] (0.31,0.29) circle (1.2pt);
+\draw [ gray] (0.31,0.76) -- (0.00,0.76	);
+\node[align=right,text width=3cm, color=gray] at (-0.10,0.76) {Totonicapán \\ \totonicapan \%};
 
 % ###############QUETZALTENANGO############################## %
-\draw [thick] (0.28,0.26) -- (0.28,0.63);
-\filldraw (0.28,0.26) circle (1pt);
-\draw [thick] (0.28,0.63) -- (0.20,0.63	);
-\node[align=right,text width=3cm] at (0.10,0.63) {Quetzaltenango \\ 5\%};
+\draw [ gray] (0.28,0.26) -- (0.28,0.69);
+\filldraw [gray] (0.28,0.26) circle (1.2pt);
+\draw [ gray] (0.28,0.69) -- (0.15,0.69	);
+\node[align=right,text width=3cm, color=gray] at (0.05,0.69) {Quetzaltenango \\ \quetzaltenango \%};
 
+
+
+
+% ###############SAN MARCOS############################## %
+\draw [ gray] (0.24,0.34) -- (0.24,0.62);
+\filldraw [gray] (0.24,0.34) circle (1.2pt);
+\draw [ gray] (0.24,0.62) -- (0.00,0.62	);
+\node[align=right,text width=3cm, color=gray] at (-0.10,0.62) {San Marcos \\ \sanMarcos \%};
+
+
+% ###############HUEHUETENANGO############################## %
+\draw [ gray] (0.22,0.4) -- (0.22,0.55);
+\filldraw [gray] (0.22,0.4) circle (1.2pt);
+\draw [ gray] (0.22,0.55) -- (0.15,0.55	);
+\node[align=right,text width=3cm, color=gray] at (0.05,0.55) {Huehuetenango \\ \huehuetenango \%};
+
+
+
+% ###############ESCUINTLA############################## %
+\draw [ gray] (0.32,0.12) -- (0.19,0.12);
+\filldraw [gray] (0.32,0.12) circle (1.2pt);
+\draw [ gray] (0.19,0.12) -- (0.19,0.17	);
+\draw [ gray] (0.19,0.17) -- (0.00,0.17	);
+\node[align=right,text width=3cm, color=gray] at (-0.10,0.17) {Escuintla \\ \escuintla \%};
+
+
+% ###############CHIMALTENANGO############################## %
+\draw [ gray] (0.38,0.22) -- (0.38,0.07);
+\filldraw [gray] (0.38,0.22) circle (1.2pt);
+\draw [ gray] (0.38,0.07) -- (0.17,0.07	);
+\draw [ gray] (0.17,0.07) -- (0.17,0.10	);
+\draw [ gray] (0.17,0.10) -- (0.15,0.10	);
+\node[align=right,text width=3cm, color=gray] at (0.05,0.10) {Chimaltenango \\ \chimaltenango \%};
+
+% ###############SUCHITEPEQUEZ############################## %
+\draw [ gray] (0.22,0.17) -- (0.22,0.24);
+\filldraw [gray] (0.31,0.17) circle (1.2pt);
+\draw [ gray] (0.31,0.17) -- (0.22,0.17	);
+\draw [ gray] (0.22,0.24) -- (0.15,0.24	);
+\node[align=right,text width=3cm, color=gray] at (0.05,0.24) {Suchitepéquez \\ \suchitepequez \%};
+
+% ###############RETALHULEU############################## %
+\draw [ gray] (0.26,0.19) -- (0.26,0.31);
+\filldraw [gray] (0.26,0.19) circle (1.2pt);
+\draw [ gray] (0.26,0.31) -- (0.00,0.31	);
+\node[align=right,text width=3cm, color=gray] at (-0.10,0.31) {Retalhuleu \\  \retalhuleu \%};
 
 \end{scope}
 \end{tikzpicture}
