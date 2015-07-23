@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.16)  29 MAY 2015 16:33
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.16)  23 JUL 2015 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,19 @@ entering extended mode
 (./mapaAnotado.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(c:/texlive/2014/texmf-dist/tex/latex/extsizes/extbook.cls
+Document Class: extbook 1999/01/07 v1.4a NON-Standard LaTeX document class
 (c:/texlive/2014/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2007/10/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 52.
+\big@size=\dimen102
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -22,22 +31,15 @@ File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
-(c:/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(c:/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks14
-\pgfutil@tempdima=\dimen103
-\pgfutil@tempdimb=\dimen104
+\pgfutil@tempdima=\dimen104
+\pgfutil@tempdimb=\dimen105
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -74,8 +76,8 @@ Package graphics Info: Driver file: xetex.def on input line 91.
 File: xetex.def 2014/04/28 v4.01 LaTeX color/graphics driver for XeTeX (RRM/JK)
 
 ))
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
@@ -88,14 +90,14 @@ Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks18
 ))
-\pgf@x=\dimen107
-\pgf@y=\dimen108
-\pgf@xa=\dimen109
-\pgf@ya=\dimen110
-\pgf@xb=\dimen111
-\pgf@yb=\dimen112
-\pgf@xc=\dimen113
-\pgf@yc=\dimen114
+\pgf@x=\dimen108
+\pgf@y=\dimen109
+\pgf@xa=\dimen110
+\pgf@ya=\dimen111
+\pgf@xb=\dimen112
+\pgf@yb=\dimen113
+\pgf@xc=\dimen114
+\pgf@yc=\dimen115
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count89
@@ -151,7 +153,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen115
+\pgfmath@dimen=\dimen116
 \pgfmath@count=\count96
 \pgfmath@box=\box27
 \pgfmath@toks=\toks22
@@ -180,32 +182,32 @@ etics.code.tex)))
 ))
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen116
-\pgf@picmaxx=\dimen117
-\pgf@picminy=\dimen118
-\pgf@picmaxy=\dimen119
-\pgf@pathminx=\dimen120
-\pgf@pathmaxx=\dimen121
-\pgf@pathminy=\dimen122
-\pgf@pathmaxy=\dimen123
-\pgf@xx=\dimen124
-\pgf@xy=\dimen125
-\pgf@yx=\dimen126
-\pgf@yy=\dimen127
-\pgf@zx=\dimen128
-\pgf@zy=\dimen129
+\pgf@picminx=\dimen117
+\pgf@picmaxx=\dimen118
+\pgf@picminy=\dimen119
+\pgf@picmaxy=\dimen120
+\pgf@pathminx=\dimen121
+\pgf@pathmaxx=\dimen122
+\pgf@pathminy=\dimen123
+\pgf@pathmaxy=\dimen124
+\pgf@xx=\dimen125
+\pgf@xy=\dimen126
+\pgf@yx=\dimen127
+\pgf@yy=\dimen128
+\pgf@zx=\dimen129
+\pgf@zy=\dimen130
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen130
-\pgf@path@lasty=\dimen131
+\pgf@path@lastx=\dimen131
+\pgf@path@lasty=\dimen132
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
-\pgf@shorten@end@additional=\dimen132
-\pgf@shorten@start@additional=\dimen133
+\pgf@shorten@end@additional=\dimen133
+\pgf@shorten@start@additional=\dimen134
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
@@ -217,14 +219,14 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
-\pgflinewidth=\dimen134
+\pgflinewidth=\dimen135
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
-\pgf@pt@x=\dimen135
-\pgf@pt@y=\dimen136
-\pgf@pt@temp=\dimen137
+\pgf@pt@x=\dimen136
+\pgf@pt@y=\dimen137
+\pgf@pt@temp=\dimen138
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -238,11 +240,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
-\pgfarrowsep=\dimen138
+\pgfarrowsep=\dimen139
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen139
+\pgf@max=\dimen140
 \pgf@sys@shading@range@num=\count99
 )
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -272,8 +274,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen140
-\pgf@nodesepend=\dimen141
+\pgf@nodesepstart=\dimen141
+\pgf@nodesepend=\dimen142
 )
 (c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -287,8 +289,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 (c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen142
-\pgffor@skip=\dimen143
+\pgffor@iter=\dimen143
+\pgffor@skip=\dimen144
 \pgffor@stack=\toks25
 \pgffor@toks=\toks26
 ))
@@ -299,14 +301,14 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count100
-\pgfplotmarksize=\dimen144
+\pgfplotmarksize=\dimen145
 )
-\tikz@lastx=\dimen145
-\tikz@lasty=\dimen146
-\tikz@lastxsaved=\dimen147
-\tikz@lastysaved=\dimen148
-\tikzleveldistance=\dimen149
-\tikzsiblingdistance=\dimen150
+\tikz@lastx=\dimen146
+\tikz@lasty=\dimen147
+\tikz@lastxsaved=\dimen148
+\tikz@lastysaved=\dimen149
+\tikzleveldistance=\dimen150
+\tikzsiblingdistance=\dimen151
 \tikz@figbox=\box33
 \tikz@figbox@bg=\box34
 \tikz@tempbox=\box35
@@ -328,17 +330,58 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-(c:/texlive/2014/texmf-dist/tex/latex/preview/preview.sty
-Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2014/05/18 version 3.04 text color boxes
 
-(c:/texlive/2014/texmf-dist/tex/latex/preview/prtightpage.def
-\PreviewBorder=\dimen151
+(c:/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
+\verbatim@in@stream=\read2
 )
-\pr@snippet=\count109
-\pr@box=\box37
-\pr@output=\toks27
+(c:/texlive/2014/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/texlive/2014/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-(c:/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.sty
+\@envbody=\toks29
+)
+(c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count109
+)
+\etb@tempcnta=\count110
+)
+\tcb@titlebox=\box37
+\tcb@upperbox=\box38
+\tcb@lowerbox=\box39
+\tcb@phantombox=\box40
+\c@tcbbreakpart=\count111
+\c@tcblayer=\count112
+\tcb@temp=\box41
+\tcb@temp=\box42
+\tcb@temp=\box43
+\tcb@temp=\box44
+\tcb@out=\write4
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '3.04'
+\tcb@waterbox=\box45
+(c:/texlive/2014/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '3.04'
+)) (c:/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2013/05/20 v2.3c Font selection for XeLaTeX and LuaLaTeX
 
 (c:/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -351,35 +394,30 @@ Package ifpdf Info: pdfTeX in PDF mode is not detected.
 (c:/texlive/2014/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2014/05/20 v4814 L3 programming layer (code) 
 L3 Module: l3bootstrap 2014/05/16 v4782 L3 Bootstrap code
-
-(c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count110
-)
 L3 Module: l3names 2014/05/04 v4728 L3 Namespace for primitives
 L3 Module: l3basics 2014/05/04 v4728 L3 Basic definitions
 L3 Module: l3expan 2014/04/30 v4712 L3 Argument expansion
 L3 Module: l3tl 2014/05/04 v4728 L3 Token lists
 L3 Module: l3seq 2014/04/30 v4712 L3 Sequences and stacks
 L3 Module: l3int 2014/05/16 v4776 L3 Integers
-\c_max_int=\count111
-\l_tmpa_int=\count112
-\l_tmpb_int=\count113
-\g_tmpa_int=\count114
-\g_tmpb_int=\count115
+\c_max_int=\count113
+\l_tmpa_int=\count114
+\l_tmpb_int=\count115
+\g_tmpa_int=\count116
+\g_tmpb_int=\count117
 L3 Module: l3quark 2014/05/04 v4728 L3 Quarks
 L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
-\g__prg_map_int=\count116
+\g__prg_map_int=\count118
 L3 Module: l3clist 2014/05/04 v4728 L3 Comma separated lists
 L3 Module: l3token 2014/05/04 v4728 L3 Experimental token manipulation
 L3 Module: l3prop 2014/04/30 v4712 L3 Property lists
 L3 Module: l3msg 2014/05/04 v4728 L3 Messages
 L3 Module: l3file 2014/05/05 v4737 L3 File and I/O operations
-\l_iow_line_count_int=\count117
-\l__iow_target_count_int=\count118
-\l__iow_current_line_int=\count119
-\l__iow_current_word_int=\count120
-\l__iow_current_indentation_int=\count121
+\l_iow_line_count_int=\count119
+\l__iow_target_count_int=\count120
+\l__iow_current_line_int=\count121
+\l__iow_current_word_int=\count122
+\l__iow_current_indentation_int=\count123
 L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
 \c_zero_dim=\dimen152
 \c_max_dim=\dimen153
@@ -400,26 +438,26 @@ L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
 L3 Module: l3keys 2014/05/08 v4753 L3 Key-value interfaces
-\g__keyval_level_int=\count122
-\l_keys_choice_int=\count123
+\g__keyval_level_int=\count124
+\l_keys_choice_int=\count125
 L3 Module: l3fp 2014/04/30 v4712 L3 Floating points
-\c__fp_leading_shift_int=\count124
-\c__fp_middle_shift_int=\count125
-\c__fp_trailing_shift_int=\count126
-\c__fp_big_leading_shift_int=\count127
-\c__fp_big_middle_shift_int=\count128
-\c__fp_big_trailing_shift_int=\count129
-\c__fp_Bigg_leading_shift_int=\count130
-\c__fp_Bigg_middle_shift_int=\count131
-\c__fp_Bigg_trailing_shift_int=\count132
+\c__fp_leading_shift_int=\count126
+\c__fp_middle_shift_int=\count127
+\c__fp_trailing_shift_int=\count128
+\c__fp_big_leading_shift_int=\count129
+\c__fp_big_middle_shift_int=\count130
+\c__fp_big_trailing_shift_int=\count131
+\c__fp_Bigg_leading_shift_int=\count132
+\c__fp_Bigg_middle_shift_int=\count133
+\c__fp_Bigg_trailing_shift_int=\count134
 L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
-\c_empty_box=\box38
-\l_tmpa_box=\box39
-\l_tmpb_box=\box40
-\g_tmpa_box=\box41
-\g_tmpb_box=\box42
+\c_empty_box=\box46
+\l_tmpa_box=\box47
+\l_tmpb_box=\box48
+\g_tmpa_box=\box49
+\g_tmpb_box=\box50
 L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
-\l__coffin_internal_box=\box43
+\l__coffin_internal_box=\box51
 \l__coffin_internal_dim=\dimen158
 \l__coffin_offset_x_dim=\dimen159
 \l__coffin_offset_y_dim=\dimen160
@@ -427,21 +465,21 @@ L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
 \l__coffin_y_dim=\dimen162
 \l__coffin_x_prime_dim=\dimen163
 \l__coffin_y_prime_dim=\dimen164
-\c_empty_coffin=\box44
-\l__coffin_aligned_coffin=\box45
-\l__coffin_aligned_internal_coffin=\box46
-\l_tmpa_coffin=\box47
-\l_tmpb_coffin=\box48
-\l__coffin_display_coffin=\box49
-\l__coffin_display_coord_coffin=\box50
-\l__coffin_display_pole_coffin=\box51
+\c_empty_coffin=\box52
+\l__coffin_aligned_coffin=\box53
+\l__coffin_aligned_internal_coffin=\box54
+\l_tmpa_coffin=\box55
+\l_tmpb_coffin=\box56
+\l__coffin_display_coffin=\box57
+\l__coffin_display_coord_coffin=\box58
+\l__coffin_display_pole_coffin=\box59
 \l__coffin_display_offset_dim=\dimen165
 \l__coffin_display_x_dim=\dimen166
 \l__coffin_display_y_dim=\dimen167
 L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
 L3 Module: l3luatex 2014/04/30 v4712 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count133
-\g__cctab_stack_int=\count134
+\g__cctab_allocate_int=\count135
+\g__cctab_stack_int=\count136
 L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 \l__box_top_dim=\dimen168
 \l__box_bottom_dim=\dimen169
@@ -451,7 +489,7 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 \l__box_bottom_new_dim=\dimen173
 \l__box_left_new_dim=\dimen174
 \l__box_right_new_dim=\dimen175
-\l__box_internal_box=\box52
+\l__box_internal_box=\box60
 \l__coffin_bounding_shift_dim=\dimen176
 \l__coffin_left_corner_dim=\dimen177
 \l__coffin_right_corner_dim=\dimen178
@@ -462,15 +500,15 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 ))
 (c:/texlive/2014/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count135
-\l__xparse_m_args_int=\count136
-\l__xparse_mandatory_args_int=\count137
-\l__xparse_processor_int=\count138
-\l__xparse_v_nesting_int=\count139
+\l__xparse_current_arg_int=\count137
+\l__xparse_m_args_int=\count138
+\l__xparse_mandatory_args_int=\count139
+\l__xparse_processor_int=\count140
+\l__xparse_v_nesting_int=\count141
 )
-\l_fontspec_script_int=\count140
-\l_fontspec_language_int=\count141
-\l_fontspec_strnum_int=\count142
+\l_fontspec_script_int=\count142
+\l_fontspec_language_int=\count143
+\l_fontspec_strnum_int=\count144
 \l_fontspec_tmpa_dim=\dimen183
 \l_fontspec_tmpb_dim=\dimen184
 \l_fontspec_tmpc_dim=\dimen185
@@ -526,9 +564,9 @@ LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 (c:/texlive/2014/texmf-dist/tex/latex/euenc/eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-\tipaTiiicode=\count143
-\tipasavetokens=\toks28
-\tipachecktokens=\toks29
+\tipaTiiicode=\count145
+\tipasavetokens=\toks30
+\tipachecktokens=\toks31
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -636,23 +674,15 @@ File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 .................................................
 Variant \prop_gput:cnV already defined; not changing it on line 582
 Variant \prop_gput:cnx already defined; not changing it on line 583
-\l_fontspec_tmp_int=\count144
+\l_fontspec_tmp_int=\count146
 LaTeX Info: Redefining \itshape on input line 2087.
 LaTeX Info: Redefining \slshape on input line 2092.
 LaTeX Info: Redefining \scshape on input line 2097.
 LaTeX Info: Redefining \upshape on input line 2102.
 
 (c:/texlive/2014/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
-)
-(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
-)
-\g__file_internal_ior=\read2
-\g_fontspec_family_Open Sans Condensed Light_int=\count145
+\g__file_internal_ior=\read3
+\g_fontspec_family_Open Sans Condensed Light_int=\count147
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -674,37 +704,45 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
 . <->"Open Sans Condensed Light/BI/ICU:script=latn;language=DFLT;"
 .................................................
  (./datos.tex)
+(c:/texlive/2014/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+
+(c:/texlive/2014/texmf-dist/tex/latex/preview/prtightpage.def
+\PreviewBorder=\dimen186
+)
+\pr@snippet=\count148
+\pr@box=\box61
+\pr@output=\toks32
+) (./datos.tex)
 
 LaTeX Warning: Unused global option(s):
-    [11.2pt].
+    [18pt].
 
 (./mapaAnotado.aux)
 \openout1 = `mapaAnotado.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 40.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 40.
  (c:/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    ... okay on input line 40.
 
 ABD: EveryShipout initializing macros
-Preview: Fontsize 10pt
-Preview: PDFoutput 1
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -712,170 +750,114 @@ Preview: PDFoutput 1
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 25.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 25.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 25.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 25.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 25.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 25.
-LaTeX Font Info:    Redeclaring math accent \check on input line 25.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 25.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 25.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 25.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 40.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 40.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 40.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 40.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 40.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 40.
+LaTeX Font Info:    Redeclaring math accent \check on input line 40.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 40.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 40.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 40.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 40.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 25.
+(Font)              `operators' in the math version `normal' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU1/OpenSansCondensedLight(0)/m/n on in
-put line 25.
+put line 40.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 25.
+(Font)              `operators' in the math version `bold' on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU1/OpenSansCondensedLight(0)/m/n on i
-nput line 25.
+nput line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU1/OpenSansCondensedLight(0)/m/n --> EU1/OpenSansConde
-nsedLight(0)/m/n on input line 25.
+nsedLight(0)/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  EU1/OpenSansCondensedLight(0)/m/n --> EU1/OpenSansConde
-nsedLight(0)/m/n on input line 25.
+nsedLight(0)/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU1/OpenSansCondensedLight(0)/m/it on 
-input line 25.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU1/OpenSansCondensedLight(0)/bx/n on 
-input line 25.
+input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 25.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 40.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU1/OpenSansCondensedLight(0)/m/n --> EU1/OpenSansConde
-nsedLight(0)/bx/n on input line 25.
+nsedLight(0)/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  EU1/OpenSansCondensedLight(0)/m/n --> EU1/OpenSansConde
-nsedLight(0)/bx/n on input line 25.
+nsedLight(0)/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU1/OpenSansCondensedLight(0)/bx/it o
-n input line 25.
+n input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 25.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 40.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 40.
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
 File: mapa.pdf Graphic file (type QTm)
 <use  "mapa.pdf" >
-Underfull \hbox (badness 3492) in paragraph at lines 127--127
- []\EU1/OpenSansCondensedLight(0)/m/n/10 15.2%
+Overfull \hbox (1.59334pt too wide) in paragraph at lines 142--142
+ [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Sacatepéquez
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 133--133
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Quiché
+Overfull \hbox (7.43806pt too wide) in paragraph at lines 167--167
+ [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Quetzaltenango
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 133--133
- []\EU1/OpenSansCondensedLight(0)/m/n/10 1.35%
+Overfull \hbox (9.12263pt too wide) in paragraph at lines 183--183
+ [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Huehuetenango
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 140--140
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Sololá
+Overfull \hbox (5.9244pt too wide) in paragraph at lines 201--201
+ [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Chimaltenango
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 140--140
- []\EU1/OpenSansCondensedLight(0)/m/n/10 37%
+Overfull \hbox (4.31306pt too wide) in paragraph at lines 208--208
+ [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Suchitepéquez
  []
 
-
-Underfull \hbox (badness 1205) in paragraph at lines 146--146
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Totonicapán
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 146--146
- []\EU1/OpenSansCondensedLight(0)/m/n/10 17%
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 152--152
- []\EU1/OpenSansCondensedLight(0)/m/n/10 8.9%
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 161--161
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 San Marcos
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 161--161
- []\EU1/OpenSansCondensedLight(0)/m/n/10 5.3%
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 168--168
- []\EU1/OpenSansCondensedLight(0)/m/n/10 1.3%
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 177--177
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Escuintla
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 177--177
- []\EU1/OpenSansCondensedLight(0)/m/n/10 6.7%
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 186--186
- []\EU1/OpenSansCondensedLight(0)/m/n/10 0.98%
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 193--193
- []\EU1/OpenSansCondensedLight(0)/m/n/10 19.2%
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 199--199
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Retalhuleu
- []
-
-
-Underfull \hbox (badness 5359) in paragraph at lines 199--199
- []\EU1/OpenSansCondensedLight(0)/m/n/10 4%
- []
-
-
-Overfull \hbox (257.14426pt too wide) in paragraph at lines 202--202
+File: barraColor.pdf Graphic file (type QTm)
+<use  "barraColor.pdf" >
+Overfull \hbox (196.98529pt too wide) in paragraph at lines 226--226
 [][] 
  []
 
 Preview: Tightpage 0 0 0 0
 [1] (./mapaAnotado.aux) ) 
 Here is how much of TeX's memory you used:
- 22818 strings out of 493734
- 480667 string characters out of 6149468
- 511492 words of memory out of 5000000
- 25887 multiletter control sequences out of 15000+600000
- 4499 words of font info for 27 fonts, out of 8000000 for 9000
+ 25027 strings out of 493734
+ 536658 string characters out of 6149468
+ 594629 words of memory out of 5000000
+ 28070 multiletter control sequences out of 15000+600000
+ 3728 words of font info for 25 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 55i,7n,54p,10362b,678s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,7n,84p,10362b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on mapaAnotado.pdf (1 page).
