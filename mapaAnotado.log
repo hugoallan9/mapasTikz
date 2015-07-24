@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.16)  23 JUL 2015 17:48
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2014.9.16)  24 JUL 2015 02:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,33 +819,23 @@ Preview: Fontsize 10pt
 Preview: PDFoutput 1
 File: mapa.pdf Graphic file (type QTm)
 <use  "mapa.pdf" >
-Overfull \hbox (1.59334pt too wide) in paragraph at lines 142--142
+Overfull \hbox (4.43878pt too wide) in paragraph at lines 142--142
  [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Sacatepéquez
  []
 
 
-Overfull \hbox (7.43806pt too wide) in paragraph at lines 167--167
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Quetzaltenango
+Underfull \hbox (badness 1005) in paragraph at lines 155--155
+ []\EU1/OpenSansCondensedLight(0)/m/n/10 37
  []
 
 
-Overfull \hbox (9.12263pt too wide) in paragraph at lines 183--183
+Overfull \hbox (0.58672pt too wide) in paragraph at lines 183--183
  [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Huehuetenango
- []
-
-
-Overfull \hbox (5.9244pt too wide) in paragraph at lines 201--201
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Chimaltenango
- []
-
-
-Overfull \hbox (4.31306pt too wide) in paragraph at lines 208--208
- [][][][]\EU1/OpenSansCondensedLight(0)/m/n/10 Suchitepéquez
  []
 
 File: barraColor.pdf Graphic file (type QTm)
 <use  "barraColor.pdf" >
-Overfull \hbox (196.98529pt too wide) in paragraph at lines 226--226
+Overfull \hbox (167.00665pt too wide) in paragraph at lines 226--226
 [][] 
  []
 
@@ -854,7 +844,7 @@ Preview: Tightpage 0 0 0 0
 Here is how much of TeX's memory you used:
  25027 strings out of 493734
  536658 string characters out of 6149468
- 594629 words of memory out of 5000000
+ 593226 words of memory out of 5000000
  28070 multiletter control sequences out of 15000+600000
  3728 words of font info for 25 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
